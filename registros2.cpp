@@ -3,7 +3,7 @@ using namespace std;
 
 struct persona{
     string nombre;
-    char dni[8];
+    char dni[9];
     int edad;
 };
 
