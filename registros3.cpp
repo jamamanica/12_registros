@@ -25,12 +25,10 @@ int main(){
         cout<<"Ingrese numero de mes: ";cin>>cumple;
         for(int i=0;i<n;i++){
             if(mes[cumple-1]==datos[i].mes){
-                cout<<"--Personas que cumplen en ese mes--"<<endl;
                 cout<<"Nombre: "<<datos[i].nombre<<endl;
                 cout<<"Dia de nacimiento: "<<datos[i].dia<<endl;
                 cout<<"Mes de nacimiento: "<<datos[i].mes<<endl;
                 cout<<"Anio de nacimiento: "<<datos[i].anio<<endl;
-                break;
             } 
         }
         cout<<"-----------------------------------"<<endl;
