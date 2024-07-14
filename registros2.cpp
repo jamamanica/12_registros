@@ -23,8 +23,9 @@ int main(){
         }
         s=s+datos[i].edad;
     }
-    p=s/n;
     cout<<"--------------------------------"<<endl;
+    cout<<"Numero de personas mayores a 50 anios: "<<c<<endl;
+    p=s/n;
     cout<<"Promedio de edades: "<<p<<endl;
     cout<<"--------------------------------"<<endl;
     cout<<"--Datos de personas ingresadas--"<<endl;
