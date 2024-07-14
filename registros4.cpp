@@ -35,7 +35,7 @@ int main(){
         }
     }
     cout<<"------------------------------------------------"<<endl;
-    cout<<"--> El atleta con mayor # de medallas en "<<pais<<" es: "<<name<<endl;
+    cout<<"--> El atleta con mayor # de medallas en "<<pais<<" es: "<<name<<" ("<<mayor<<" medallas)"<<endl;
     cout<<"------------------------------------------------"<<endl;
     return 0;
 }
